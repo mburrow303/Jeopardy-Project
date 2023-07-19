@@ -1,0 +1,33 @@
+header {
+  text-align:center;
+  color:dodgerblue;
+  font-size: 96px;
+}
+
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  color:red;
+  font-size:36px;
+  margin-left: 47%;
+}
+
+.button:hover {
+  background-color:powderblue;
+}
+
+div {
+  display:flex;
+  height: 360px;
+}
+
+footer {
+  text-align:center;
+  font-size: 24px;
+  color:navy;
+}

@@ -4,20 +4,20 @@ header {
   font-size: 96px;
 }
 
-.center {
+.image {
   display:block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
-.button {
+.play {
   color:red;
   font-size:36px;
   margin-left: 47%;
 }
 
-.button:hover {
+.play:hover {
   background-color:powderblue;
 }
 

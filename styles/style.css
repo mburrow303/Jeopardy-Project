@@ -14,7 +14,10 @@ header {
 .play {
   color:red;
   font-size:36px;
-  margin-left: 47%;
+  margin-left: 42%;
+  margin-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .play:hover {

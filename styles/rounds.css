@@ -16,14 +16,24 @@ body {
 }
 
 table {
+  align-self:center;
   text-align:center;
   color:white;
   background-color:blue;
+  font-size:24px;
+  border:10px;
+}
+
+#square {
+  outline-color:white;
+  outline-style:auto;
 }
 
 #square:hover {
   color:red;
   background-color:lightskyblue;
+  text-decoration: underline;
+  border: 10px;
 }
 
 form {
@@ -31,6 +41,14 @@ form {
   border:10px;
   color:blue;
   padding: 20px;
+}
+
+#btn {
+ color:blue;
+ background-color: powderblue;
+ font-size: 18px;
+ padding-left: 10px;
+ padding-right: 10px;
 }
 
 div {
@@ -52,6 +70,10 @@ div {
 button {
   float: right;
   margin-right: 25px;
+  font-size: 18px;
+  padding: 10px;
+  color:blue;
+  background-color:powderblue;
 }
 
 footer {

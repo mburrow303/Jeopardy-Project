@@ -1,0 +1,71 @@
+header {
+  text-align:center;
+  color:dodgerblue;
+  font-size: 84px;
+}
+
+h1 {
+  text-align:center;
+  color:red;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  text-align:center;
+  color:white;
+  background-color:blue;
+}
+
+#square:hover {
+  color:red;
+  background-color:lightskyblue;
+}
+
+form {
+  text-align:center;
+  border:10px;
+  color:blue;
+  padding: 20px;
+}
+
+div {
+  font-size: 24px;
+  display:inline-block;
+  color:navy;
+}
+
+.player1 {
+  float: left;
+  margin-left: 150px;
+}
+
+.player2 {
+  float: right;
+  margin-right: 150px;
+}
+
+button {
+  float: right;
+  margin-right: 25px;
+}
+
+footer {
+  text-align:center;
+  font-size: 24px;
+  color:navy;
+  margin-top:auto;
+}
+
+a {
+  color:blue;
+  margin-left: 50px;
+}
+
+a:hover {
+  color:red;
+}

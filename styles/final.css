@@ -1,0 +1,101 @@
+header {
+  text-align:center;
+  color:dodgerblue;
+  font-size: 84px;
+}
+
+h1 {
+  text-align:center;
+  color:red;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  align-self:center;
+  text-align:center;
+  color:white;
+  background-color:blue;
+  font-size:24px;
+  border:10px;
+}
+
+#square {
+  outline-color:white;
+  outline-style:auto;
+}
+
+#category {
+  outline-color:white;
+  outline-style:auto;
+}
+
+#square:hover {
+  color:red;
+  background-color:lightskyblue;
+  text-decoration: underline;
+  border: 10px;
+}
+
+form {
+  text-align:center;
+  border:10px;
+  color:blue;
+  padding: 20px;
+}
+
+#btn {
+ color:blue;
+ background-color: powderblue;
+ font-size: 18px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+div {
+  font-size: 24px;
+  display:inline-block;
+  color:navy;
+}
+
+button {
+  float: right;
+  margin-right: 25px;
+  font-size: 18px;
+  padding: 10px;
+  color:blue;
+  background-color:powderblue;
+}
+
+.prev {
+  float:left;
+}
+
+.next {
+  float:right;
+}
+
+nav {
+  display:inline-block;
+  float:right;
+}
+
+footer {
+  text-align:center;
+  font-size: 24px;
+  color:navy;
+  margin-top:auto;
+}
+
+a {
+  color:blue;
+  margin-left: 50px;
+}
+
+a:hover {
+  color:red;
+}

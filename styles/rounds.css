@@ -29,6 +29,11 @@ table {
   outline-style:auto;
 }
 
+#category {
+  outline-color:white;
+  outline-style:auto;
+}
+
 #square:hover {
   color:red;
   background-color:lightskyblue;
@@ -74,6 +79,19 @@ button {
   padding: 10px;
   color:blue;
   background-color:powderblue;
+}
+
+.prev {
+  float:left;
+}
+
+.next {
+  float:right;
+}
+
+nav {
+  display:inline-block;
+  float:right;
 }
 
 footer {
